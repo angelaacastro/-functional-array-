@@ -17,3 +17,10 @@ function getDogs(Animals) {
     return dogs
 }
 console.log(getDogs(Animals));
+
+function filterDogs(Animals) {
+
+    const result = Animals.filter( animal=> animal.species === "dog");
+    return result
+}
+console.log(filterDogs(Animals));
