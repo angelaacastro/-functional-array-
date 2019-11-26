@@ -16,3 +16,9 @@ let animalNames = []
     return animalNames
 }
 console.log(getNames(Animals));
+
+function mapNames () {
+    const result = Animals.map(animal => animal.name);
+    return result
+}
+console.log(mapNames(Animals));
